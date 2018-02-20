@@ -1,4 +1,4 @@
-# hello-word
+## 获取手机唯一mac地址
 //获取手机唯一mac地址，无需要设置权限以及不需要打开wifi
 public static String getMac(){
   String macSerical = "";
