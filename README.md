@@ -1,5 +1,6 @@
 ## 获取手机唯一mac地址
 //获取手机唯一mac地址，无需要设置权限以及不需要打开wifi
+、、、java
 public static String getMac(){
   String macSerical = "";
   String str = "";
@@ -25,3 +26,4 @@ public static String getMac(){
   }
   return macSerial;
 }
+、、、
