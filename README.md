@@ -27,3 +27,25 @@ public static String getMac(){
   return macSerial;
 }
 ``` 
+##MD5加密
+```java 
+public static String md5(String str){
+  try{
+    MessageDigest md = MessageDigest.getInstance("MD5");
+    md.update(str.getBytes());
+    byte [] b = md.digest();
+    int i;
+    StringBuffer sb = new StringBuffer();
+    for(int offset = 0;offset<b.length; offset++){
+      i = b[offest];
+      if(i<0)i+=256;
+      if(i<16)sb.append("0");
+      sb.append(Integer.toHexString(i));
+    }
+    return sb.toString();
+  }catch (Exception e){
+  }
+  return "";
+}
+```
+
