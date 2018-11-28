@@ -49,3 +49,27 @@ public static String md5(String str){
 }
 ```
 
+#如何跳转QQ
+```java
+if(isQQClientAvailable(MainActivity.this)){
+                    final String qqUrl = "mqqwpa://im/chat?chat_type=wpa&uin="+"对应的qq号";
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(qqUrl)));
+                }else{
+                    Toast.makeText(MainActivity.this,"请安装QQ客户端",Toast.LENGTH_SHORT).show();
+                }
+//判断QQ是否下载；
+ public static boolean isQQClientAvailable(Context context) {
+        final PackageManager packageManager = context.getPackageManager();
+        List<PackageInfo> pinfo = packageManager.getInstalledPackages(0);
+        if (pinfo != null) {
+            for (int i = 0; i < pinfo.size(); i++) {
+                String pn = pinfo.get(i).packageName;
+                if (pn.equals("com.tencent.mobileqq")) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+```
+
