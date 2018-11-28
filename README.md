@@ -49,7 +49,7 @@ public static String md5(String str){
 }
 ```
 
-#如何跳转QQ
+##如何跳转QQ
 ```java
 if(isQQClientAvailable(MainActivity.this)){
                     final String qqUrl = "mqqwpa://im/chat?chat_type=wpa&uin="+"对应的qq号";
@@ -71,5 +71,9 @@ if(isQQClientAvailable(MainActivity.this)){
         }
         return false;
     }
+```
+##recycleView
+```java
+https://blog.csdn.net/lmj623565791/article/details/51118836
 ```
 
