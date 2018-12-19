@@ -93,3 +93,6 @@ http://xianbai.me/learn-md/article/syntax/paragraphs-and-line-breaks.html
 ##List删除
 https://blog.csdn.net/claram/article/details/53410175
 
+##Webview shouldOverrideUrlLoading没有被调用
+http://androidcookie.com/webview-shouldoverrideurlloading-2.html
+
