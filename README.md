@@ -88,3 +88,5 @@ https://www.iconfinder.com
 ```java
 https://www.jianshu.com/u/c50b715ccaeb
 ```
+##设置AndroidStudio的模板代码
+https://blog.csdn.net/wubihang/article/details/51228752
