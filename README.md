@@ -96,3 +96,6 @@ https://blog.csdn.net/claram/article/details/53410175
 ##Webview shouldOverrideUrlLoading没有被调用
 http://androidcookie.com/webview-shouldoverrideurlloading-2.html
 
+##Apptoken封装
+https://www.cnblogs.com/ganchuanpu/p/8399553.html
+
