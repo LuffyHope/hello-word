@@ -99,3 +99,6 @@ http://androidcookie.com/webview-shouldoverrideurlloading-2.html
 ##Apptoken封装
 https://www.cnblogs.com/ganchuanpu/p/8399553.html
 
+##精美电脑桌面
+http://m.gd7j.com/
+
