@@ -104,3 +104,6 @@ http://m.gd7j.com/%E9%A3%8E%E6%99%AF%E5%9B%BE%E7%89%87%E9%9B%A8%E6%99%AF%E6%A1%8
 
 ##ExpandableListView的使用
 https://www.jianshu.com/p/10360a8a52d4
+
+##解决Recyclerview的滑动错乱问题
+https://blog.csdn.net/Maiduoudo/article/details/82876593
