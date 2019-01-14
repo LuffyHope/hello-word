@@ -107,3 +107,44 @@ https://www.jianshu.com/p/10360a8a52d4
 
 ##解决Recyclerview的滑动错乱问题
 https://blog.csdn.net/Maiduoudo/article/details/82876593
+
+
+```java
+ //修改点
+ OptionAdapter 添加
+     @Override
+    public int getItemViewType(int position) {
+        return position;
+    }
+ ChooceLotteryActivity  --》timeCount()
+            先 添加id 
+            android:id="@+id/edit_money"
+            android:gravity="center"
+            
+            android:background="@color/color_all_red"
+            
+            startTime--;
+            if (startTime > intervals) {
+                dataBind.coverTime.setText(getTime(startTime - intervals));
+                dataBind.discoverTime.setText(getTime(startTime));
+                dataBind.editMoney.setFocusableInTouchMode(true);
+                dataBind.editMoney.setFocusable(true);
+                dataBind.editMoney.requestFocus();
+            } else if (startTime > 0) {
+                dataBind.coverTime.setText("已封盘");
+                dataBind.discoverTime.setText(getTime(startTime));
+                dataBind.tvCoverDispaly.setVisibility(View.VISIBLE);
+                dataBind.editMoney.setFocusable(false);
+                dataBind.editMoney.setFocusableInTouchMode(false);
+            } else {
+                timeDiaposable.dispose();
+                dataBind.discoverTime.setText("开奖了");
+            }
+            
+        
+                    
+ 
+ 
+ 
+```
+
