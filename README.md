@@ -115,5 +115,6 @@ https://blog.csdn.net/zhouzme/article/details/51475598
 ##recyclerview滑动弹出
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0807/8348.html
 
-
+###精品软件
+https://www.jianshu.com/p/e0d5cf010f55
 
