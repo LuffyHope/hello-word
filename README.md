@@ -118,3 +118,6 @@ http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0807/8348.html
 ###精品软件
 https://www.jianshu.com/p/e0d5cf010f55
 
+###如果是EditText下方提示错误可以使用<android.support.design.widget.TextInputLayout 完美解决了EditText输入错误的问题。
+https://blog.csdn.net/xieluoxixi/article/details/53690604
+
